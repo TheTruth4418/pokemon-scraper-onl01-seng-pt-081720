@@ -11,6 +11,6 @@ class Scraper
       name = pokemon.search("a.ent-name").text
       type = pokemon.search("small.aside a").text
       Pokemon.save(name, type, @db)
-    end 
+    end
   end
 end
