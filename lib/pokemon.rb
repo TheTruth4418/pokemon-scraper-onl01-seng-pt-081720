@@ -33,4 +33,3 @@
     db.execute(sql, [new_hp, id])
     end
 end
-
