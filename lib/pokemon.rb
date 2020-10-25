@@ -1,4 +1,3 @@
-class Pokemon
   class Pokemon
   attr_accessor :name, :type, :id, :db, :hp
 
@@ -34,4 +33,4 @@ class Pokemon
     db.execute(sql, [new_hp, id])
     end
 end
-end
+
